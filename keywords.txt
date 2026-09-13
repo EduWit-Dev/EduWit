@@ -1,0 +1,69 @@
+#######################################
+# Syntax Highlighting For EduWit
+#######################################
+
+#######################################
+# Datatypes and Classes (KEYWORD1)
+#######################################
+
+EduWit	KEYWORD1
+EduBoardUNO	KEYWORD1
+eduwit	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+iniciar	KEYWORD2
+mover	KEYWORD2
+frenar	KEYWORD2
+apagar	KEYWORD2
+led	KEYWORD2
+tono	KEYWORD2
+nota	KEYWORD2
+boton	KEYWORD2
+esperarBoton	KEYWORD2
+linea	KEYWORD2
+leerAnalogico	KEYWORD2
+distancia	KEYWORD2
+servo	KEYWORD2
+leerBluetooth	KEYWORD2
+COMANDO	KEYWORD2
+
+#######################################
+# Constants and Literals (LITERAL1)
+#######################################
+
+MA	LITERAL1
+MB	LITERAL1
+AMBOS	LITERAL1
+ADELANTE	LITERAL1
+ATRAS	LITERAL1
+LED1	LITERAL1
+LED2	LITERAL1
+LED3	LITERAL1
+ENCENDIDO	LITERAL1
+APAGADO	LITERAL1
+S1	LITERAL1
+S2	LITERAL1
+S3	LITERAL1
+BLANCO	LITERAL1
+NEGRO	LITERAL1
+U1	LITERAL1
+U2	LITERAL1
+U3	LITERAL1
+SILENCIO	LITERAL1
+DO3	LITERAL1
+RE3	LITERAL1
+MI3	LITERAL1
+FA3	LITERAL1
+SOL3	LITERAL1
+LA3	LITERAL1
+SI3	LITERAL1
+DO4	LITERAL1
+RE4	LITERAL1
+MI4	LITERAL1
+FA4	LITERAL1
+SOL4	LITERAL1
+LA4	LITERAL1
+SI4	LITERAL1
