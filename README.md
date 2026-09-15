@@ -1,11 +1,8 @@
 # EduWit para Arduino
 
-Biblioteca oficial para utilizar **EduBoard UNO REV3** desde Arduino IDE y como
-capa de hardware de la extensión EduBoard UNO para mBlock 5.
-
-La API utiliza nombres que describen acciones: `moverMotor()`, `fijarLed()`,
-`botonPresionado()` o `medirDistancia()`. Los ejemplos están dirigidos a personas
-sin experiencia previa, pero conservan el vocabulario técnico necesario.
+Biblioteca oficial para utilizar **EduBoard UNO** desde Arduino IDE.
+ Los ejemplos están dirigidos a personas sin experiencia previa, pero 
+ conservan el vocabulario técnico necesario.
 
 ## Instalación
 
@@ -30,16 +27,12 @@ sin experiencia previa, pero conservan el vocabulario técnico necesario.
 | 09 | Puerto externo | Uso de S1 con instrucciones Arduino |
 | 10 | Bluetooth | Recepción de comandos con `switch-case` |
 
-Los proyectos completos se estudian después de esta ruta, cuando sus sensores,
-decisiones y actuadores ya se comprenden por separado.
-
 ## API principal
 
 ### Inicialización
 
 ```cpp
 eduwit.iniciar();
-eduwit.iniciar(38400);
 ```
 
 ### Movimiento
@@ -117,12 +110,3 @@ procesar las órdenes en el orden en que llegan sin descartar las anteriores.
 - `medirDistancia(U3)` devuelve `DISTANCIA_NO_DISPONIBLE` (`-1`) cuando SERVO
   bloquea U3.
 - Después de producir sonido, S1, S2 o S3 vuelve a quedar disponible como entrada.
-
-## Compatibilidad
-
-Los nombres utilizados por EduWit 1.1.1 se conservan internamente como alias para
-que los sketches existentes sigan compilando. Los ejemplos, el resaltado del IDE
-y la documentación muestran únicamente la API nueva.
-
-Consulta [API_MBLOCK.md](API_MBLOCK.md) para la integración con mBlock y
-[GUIA_PEDAGOGICA.md](GUIA_PEDAGOGICA.md) para los criterios de ejemplos futuros.
