@@ -1,16 +1,23 @@
+[![Arduino Library](https://img.shields.io/badge/Arduino_IDE-1.1.2-00979C.svg?logo=arduino)](https://github.com/EduWit-Dev/EduWit/releases)
+[![License: MIT](https://img.shields.io/badge/Licencia-MIT-yellow.svg)](LICENSE.txt)
+
 # EduWit para Arduino
 
 Biblioteca oficial para utilizar **EduBoard UNO** desde Arduino IDE.
  Los ejemplos están dirigidos a personas sin experiencia previa, pero 
  conservan el vocabulario técnico necesario.
 
-## Instalación
+### Instalación
 
-1. En Arduino IDE abre **Programa > Incluir librería > Añadir biblioteca .ZIP**.
-2. Selecciona el archivo ZIP de EduWit.
-3. Conecta el Arduino UNO con la EduBoard instalada.
-4. Selecciona la tarjeta **Arduino Uno**.
-5. Abre **Archivo > Ejemplos > EduWit > EduBoard_UNO**.
+#### Opción 1: Desde Arduino IDE (Recomendado)
+1. Abre Arduino IDE.
+2. Ve al **Gestor de bibliotecas** (icono de libros en la barra lateral izquierda o *Herramientas > Administrar bibliotecas...*).
+3. Busca **EduWit**.
+4. Haz clic en **Instalar** (asegúrate de que esté seleccionada la versión 1.1.2).
+
+#### Opción 2: Instalación manual (.ZIP)
+1. Descarga el archivo ZIP.
+2. En Arduino IDE: **Programa > Incluir librería > Añadir biblioteca .ZIP...**
 
 ## Ruta de aprendizaje
 
