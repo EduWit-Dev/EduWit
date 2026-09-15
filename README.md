@@ -7,7 +7,17 @@ Biblioteca oficial para utilizar **EduBoard UNO** desde Arduino IDE.
  Los ejemplos están dirigidos a personas sin experiencia previa, pero 
  conservan el vocabulario técnico necesario.
 
-### Instalación
+## Diagrama de conexiones (Pinout)
+
+<p align="center">
+  <a href="extras/EduBoard_UNO_Pinout.jpg">
+    <img src="extras/EduBoard_UNO_Pinout.jpg" alt="Pinout EduBoard UNO REV3" width="600">
+  </a>
+  <br>
+  <sub><i>(Haz clic en la imagen para verla en tamaño completo)</i></sub>
+</p>
+
+## Instalación
 
 #### Opción 1: Desde Arduino IDE (Recomendado)
 1. Abre Arduino IDE.
