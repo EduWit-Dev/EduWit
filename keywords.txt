@@ -6,7 +6,6 @@
 # Datatypes and Classes (KEYWORD1)
 #######################################
 
-EduWit	KEYWORD1
 EduBoardUNO	KEYWORD1
 eduwit	KEYWORD1
 
@@ -15,20 +14,25 @@ eduwit	KEYWORD1
 #######################################
 
 iniciar	KEYWORD2
-mover	KEYWORD2
-frenar	KEYWORD2
-apagar	KEYWORD2
-led	KEYWORD2
-tono	KEYWORD2
-nota	KEYWORD2
-boton	KEYWORD2
+moverMotor	KEYWORD2
+frenarMotor	KEYWORD2
+apagarMotor	KEYWORD2
+girarServo	KEYWORD2
+fijarLed	KEYWORD2
+botonPresionado	KEYWORD2
 esperarBoton	KEYWORD2
-linea	KEYWORD2
+detectaLinea	KEYWORD2
+leerDigital	KEYWORD2
 leerAnalogico	KEYWORD2
-distancia	KEYWORD2
-servo	KEYWORD2
-leerBluetooth	KEYWORD2
-COMANDO	KEYWORD2
+medirDistancia	KEYWORD2
+detectaObjeto	KEYWORD2
+tocarTono	KEYWORD2
+tocarNota	KEYWORD2
+detenerSonido	KEYWORD2
+configurarSerial	KEYWORD2
+enviarSerial	KEYWORD2
+leerComandoBluetooth	KEYWORD2
+enviarBluetooth	KEYWORD2
 
 #######################################
 # Constants and Literals (LITERAL1)
@@ -67,3 +71,4 @@ FA4	LITERAL1
 SOL4	LITERAL1
 LA4	LITERAL1
 SI4	LITERAL1
+DISTANCIA_NO_DISPONIBLE	LITERAL1
